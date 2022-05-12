@@ -24,7 +24,7 @@
 .conteiner1 ul{
     display: flex;
     justify-content: space-around;
-    width: 25vw;
+    width: 20vw;
     list-style: none;
 }
 
@@ -43,24 +43,27 @@
 .conteiner2{
     font-family: 'Roboto', sans-serif;
     width: 100vw;
-    padding: 90px;
-    margin-left: 20px;
+    margin-top: 30px;
 }
 
 .conteiner2 h1{
     position: relative;
     color: #766F68;
     width: 600px;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: bolder;
+    margin-left: 110px;
     z-index: 9999;
 }
 
 .conteiner2 h3{
+    position: relative;
     color: #766F68;
-    width: 360px;
-    font-size: 1.6rem;
+    width: 460px;
+    font-size: 1.8rem;
     margin-top: 30px;
+    margin-left: 110px;
+    z-index: 9999;
 }
 
 .conteiner2 nav{
@@ -68,17 +71,16 @@
 }
 
 .conteiner2 button{
-    position: relative;
     width: 200px;
     height: 50px;
     border-radius: 10px;
     border: none;
+    margin-left: 110px;
     background-color: #D2872C;
     color: white;
     font-weight: bolder;
     font-size: 1.2rem;
     transition: 0.1s all;
-    z-index: 9999;
 }
 
 .conteiner2 button:hover{
@@ -86,11 +88,11 @@
 }
 
 .conteiner2 img{
-    position: relative;
-    width: 780px;
-    height: 330px;
+    position: absolute;
+    width: 980px;
+    height: 385px;
     object-fit: cover;
     z-index: 1;
-    left: 325px;    
-    bottom: 285px;
+    left: 477px;    
+    bottom: 104px;
 }
